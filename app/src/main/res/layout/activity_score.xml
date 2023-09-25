@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DFDED4"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/txtScoreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="Just Maths"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/txtScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtScoreTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Current Score: 00"
+        android:textSize="30sp" />
+
+    <ImageButton
+        android:id="@+id/btnShareScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedbtn"
+        android:padding="20dp"
+        android:src="@drawable/ic_share_white_36dp" />
+
+</RelativeLayout>
